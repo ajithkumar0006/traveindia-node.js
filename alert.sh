@@ -15,3 +15,4 @@ docker ps --format '{{.Names}}|{{.Status}}|{{.Ports}}' | while IFS='|' read -r n
     # echo "Container $name unhealthy: $status" | mail -s "Docker Alert" you@example.com
   fi
 done
+
