@@ -4,5 +4,5 @@ CREATE TABLE IF NOT EXISTS greetings (
   message VARCHAR(255) NOT NULL
 );
 
-INSERT INTO greetings (message) 
-VALUES ('✅ Database connected successfully — Website is working fine 🚀');
+INSERT INTO greetings (message)
+VALUES (' Database connected successfully  Welcome India');
